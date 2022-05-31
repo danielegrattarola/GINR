@@ -9,7 +9,7 @@ Daniele Grattarola, Pierre Vandergheynst
 
 This repository contains all necessary code and commands to reproduce our results, as well as high-resolution and animated versions of the figures in the paper. 
 
-**Make sure you're viewing the rendered HTML version of this Markdown file.**
+Make sure you're viewing the rendered HTML version of this Markdown file at https://danielegrattarola.github.io/GINR/.
 
 # Visualizations
 
