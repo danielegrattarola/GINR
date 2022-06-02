@@ -5,7 +5,8 @@
 This is the supplementary material for 
 
 **"Generalised Implicit Neural Representations"**  
-Daniele Grattarola, Pierre Vandergheynst
+Daniele Grattarola, Pierre Vandergheynst  
+https://arxiv.org/abs/2205.15674
 
 This repository contains all necessary code and commands to reproduce our results, as well as high-resolution and animated versions of the figures in the paper. 
 
