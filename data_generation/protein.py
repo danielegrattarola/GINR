@@ -4,10 +4,10 @@ import shutil
 import numpy as np
 from pytorch_lightning import seed_everything
 
-from implicit_graphs.plotting import figures
-from implicit_graphs.plotting.figures import PLOT_CONFIGS
-from implicit_graphs.utils.data_generation import (get_fourier, get_output_dir,
-                                                   load_mesh, mesh_to_graph)
+from src.plotting import figures
+from src.plotting.figures import PLOT_CONFIGS
+from src.utils.data_generation import (get_fourier, get_output_dir, load_mesh,
+                                       mesh_to_graph)
 
 seed_everything(1234)
 dataset_name = "protein_1AA7_A"

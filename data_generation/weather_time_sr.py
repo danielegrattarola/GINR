@@ -3,9 +3,9 @@ import numpy as np
 import pymesh
 from pytorch_lightning import seed_everything
 
-from implicit_graphs.utils.data_generation import (get_fourier, get_output_dir,
-                                                   mesh_to_graph)
-from implicit_graphs.utils.eigenvectors import align_eigenvectors_kl
+from src.utils.data_generation import (get_fourier, get_output_dir,
+                                       mesh_to_graph)
+from src.utils.eigenvectors import align_eigenvectors_kl
 
 seed_everything(1234)
 

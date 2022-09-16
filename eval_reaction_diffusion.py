@@ -29,11 +29,11 @@ from scipy.spatial.transform import Rotation as R
 from sklearn.metrics import r2_score
 from tqdm import tqdm
 
-from implicit_graphs.data.graph_dataset import GraphDataset
-from implicit_graphs.models.graph_inr import GraphINR
-from implicit_graphs.plotting.figures import draw_mesh
-from implicit_graphs.utils.data_generation import load_mesh
-from implicit_graphs.utils.get_predictions import get_batched_predictions
+from src.data.graph_dataset import GraphDataset
+from src.models.graph_inr import GraphINR
+from src.plotting.figures import draw_mesh
+from src.utils.data_generation import load_mesh
+from src.utils.get_predictions import get_batched_predictions
 
 parser = ArgumentParser()
 parser.add_argument("checkpoint", type=str)

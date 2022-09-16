@@ -1,9 +1,8 @@
 import numpy as np
 import torch
-from torch import nn
-
 from implicit_graphs.models import initializers as init
 from implicit_graphs.modules.sine import Sine
+from torch import nn
 
 
 class MLP(nn.Module):

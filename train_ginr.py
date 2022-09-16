@@ -9,10 +9,10 @@ from pytorch_lightning.callbacks import (EarlyStopping, LearningRateMonitor,
 from pytorch_lightning.loggers import WandbLogger
 from torch.utils.data import DataLoader
 
-from implicit_graphs.data.graph_dataset import GraphDataset
-from implicit_graphs.models.graph_inr import GraphINR
-from implicit_graphs.plotting.figures import draw_pc
-from implicit_graphs.utils.get_predictions import get_batched_predictions
+from src.data.graph_dataset import GraphDataset
+from src.models.graph_inr import GraphINR
+from src.plotting.figures import draw_pc
+from src.utils.get_predictions import get_batched_predictions
 
 pl.seed_everything(1234)
 

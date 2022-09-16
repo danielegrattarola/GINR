@@ -30,10 +30,10 @@ import torch
 from plotly import graph_objects as go
 from tqdm import tqdm
 
-from implicit_graphs.data.graph_dataset import GraphDataset
-from implicit_graphs.models.graph_inr import GraphINR
-from implicit_graphs.utils.data_generation import cartesian_to_sphere
-from implicit_graphs.utils.get_predictions import get_batched_predictions
+from src.data.graph_dataset import GraphDataset
+from src.models.graph_inr import GraphINR
+from src.utils.data_generation import cartesian_to_sphere
+from src.utils.get_predictions import get_batched_predictions
 
 parser = ArgumentParser()
 parser.add_argument("checkpoint", type=str)

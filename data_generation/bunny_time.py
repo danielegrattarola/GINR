@@ -5,10 +5,9 @@ import numpy as np
 from scipy.spatial.transform import Rotation as R
 from tqdm import tqdm
 
-from implicit_graphs.plotting import figures
-from implicit_graphs.utils.data_generation import (get_fourier, get_output_dir,
-                                                   load_mesh, mesh_to_graph,
-                                                   normalized_laplacian)
+from src.plotting import figures
+from src.utils.data_generation import (get_fourier, get_output_dir, load_mesh,
+                                       mesh_to_graph, normalized_laplacian)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--full", action="store_true")

@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from pytorch_lightning import seed_everything
 
-from implicit_graphs.utils.data_generation import get_fourier, get_output_dir
+from src.utils.data_generation import get_fourier, get_output_dir
 
 seed_everything(1234)
 

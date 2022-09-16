@@ -20,13 +20,12 @@ import torch
 from scipy.spatial.transform import Rotation as R
 from sklearn.metrics import r2_score
 
-from implicit_graphs.data.graph_dataset import GraphDataset
-from implicit_graphs.models.graph_inr import GraphINR
-from implicit_graphs.plotting.figures import draw_mesh, draw_pc
-from implicit_graphs.utils.data_generation import (get_fourier, load_mesh,
-                                                   mesh_to_graph)
-from implicit_graphs.utils.eigenvectors import align_eigenvectors_kl
-from implicit_graphs.utils.get_predictions import get_batched_predictions
+from src.data.graph_dataset import GraphDataset
+from src.models.graph_inr import GraphINR
+from src.plotting.figures import draw_mesh, draw_pc
+from src.utils.data_generation import get_fourier, load_mesh, mesh_to_graph
+from src.utils.eigenvectors import align_eigenvectors_kl
+from src.utils.get_predictions import get_batched_predictions
 
 # Read arguments
 parser = ArgumentParser()

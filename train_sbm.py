@@ -15,10 +15,10 @@ from sklearn.metrics import accuracy_score, normalized_mutual_info_score
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 
-from implicit_graphs.models.graph_inr import GraphINR
-from implicit_graphs.utils.data_generation import normalized_laplacian
-from implicit_graphs.utils.eigenvectors import align_eigenvectors_kl
-from implicit_graphs.utils.get_predictions import get_batched_predictions
+from src.models.graph_inr import GraphINR
+from src.utils.data_generation import normalized_laplacian
+from src.utils.eigenvectors import align_eigenvectors_kl
+from src.utils.get_predictions import get_batched_predictions
 
 
 def make_dataset(groups, inter=0.1, intra=0.5, n_per_group=500, k=100):

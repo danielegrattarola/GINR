@@ -3,10 +3,9 @@ from argparse import ArgumentParser
 import pytorch_lightning as pl
 import torch
 import torchmetrics as tm
+from implicit_graphs.models.core import MLP, parse_t_f
 from torch import nn
 from torch.optim import lr_scheduler
-
-from implicit_graphs.models.core import MLP, parse_t_f
 
 
 class GraphINR(pl.LightningModule):

@@ -5,8 +5,8 @@ from glob import glob
 import numpy as np
 from pytorch_lightning import seed_everything
 
-from implicit_graphs.utils.data_generation import (get_fourier, get_output_dir,
-                                                   load_mesh, mesh_to_graph)
+from src.utils.data_generation import (get_fourier, get_output_dir, load_mesh,
+                                       mesh_to_graph)
 
 seed_everything(1234)
 
