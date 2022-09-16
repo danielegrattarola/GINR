@@ -11,7 +11,7 @@ Neural Information Processing Systems (NeurIPS 2022)
 
 Bibtex: 
 ```shell
-@inproceedings{grattarola2021learning,
+@inproceedings{grattarola2022generalised,
   title={Generalised Implicit Neural Representations},
   author={Grattarola, Daniele and Vandergheynst, Pierre},
   booktitle={Neural Information Processing Systems},
@@ -177,7 +177,6 @@ dataset_name
 │   └── data_n.npz
 ├── fourier.npy
 └── points.npy
-
 ```
 
 ## Training
