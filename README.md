@@ -2,15 +2,24 @@
 
 <img src="assets/scheme.drawio.png" width="100%">
 
-This is the supplementary material for 
+This repository contains the supplementary material for 
 
 **"Generalised Implicit Neural Representations"**  
-Daniele Grattarola, Pierre Vandergheynst  
-https://arxiv.org/abs/2205.15674
+_Daniele Grattarola, Pierre Vandergheynst_  
+Neural Information Processing Systems (NeurIPS 2022)  
+[Paper](https://arxiv.org/abs/2205.15674) | [Interactive README](https://danielegrattarola.github.io/GINR/)
 
-This repository contains all necessary code and commands to reproduce our results, as well as high-resolution and animated versions of the figures in the paper. 
+Bibtex: 
+```shell
+@inproceedings{grattarola2021learning,
+  title={Generalised Implicit Neural Representations},
+  author={Grattarola, Daniele and Vandergheynst, Pierre},
+  booktitle={Neural Information Processing Systems},
+  year={2022}
+}
+```
 
-Make sure you're viewing the rendered HTML version of this Markdown file at https://danielegrattarola.github.io/GINR/.
+This repository contains all necessary code and commands to reproduce our results, as well as high-resolution and animated versions of the figures in the paper.
 
 # Visualizations
 
@@ -85,7 +94,7 @@ We show every visualization for each of the three types of signal: wind, tempera
 - [Training signal - Video at 24 FPS](assets/tcdcclm_training.mp4)
 - [Super-resolved signal with time interpolation - Video at 48 FPS](assets/tcdcclm_pred_sr.mp4)
 
-# Reproducing results
+# Reproducing experiments
 
 ## Setup
 
