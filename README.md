@@ -12,7 +12,7 @@ Neural Information Processing Systems (NeurIPS 2022)
 Bibtex: 
 ```
 @article{grattarola2022generalised,
-  title={Generalised implicit reural representations},
+  title={Generalised implicit neural representations},
   author={Grattarola, Daniele and Vandergheynst, Pierre},
   journal={Advances in Neural Information Processing Systems},
   year={2022}
