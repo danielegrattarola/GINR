@@ -4,6 +4,7 @@ import numpy as np
 from scipy.spatial.transform import Rotation as R
 from tqdm import tqdm
 
+import sys; sys.path.append("."); sys.path.append("..")
 from src.plotting import figures
 from src.utils.data_generation import (get_fourier, get_output_dir, load_mesh,
                                        mesh_to_graph, normalized_laplacian)

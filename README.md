@@ -106,6 +106,12 @@ All necessary dependencies are listed in `requirements.txt`. You can install the
 pip install -r requirements.txt
 ```
 
+Additionally, PyMesh library has to be built from source. You can install it with:
+```shell
+sudo apt-get install libmpfr-dev libgmp-dev libboost-all-dev
+bash install_pymesh.sh <PATH_TO_PYMESH_INSTALL_DIR>
+```
+
 The training and evaluation scripts use Pytorch Lightning and Weights & Biases.
 You should make sure that W&B is properly set up by following this [quickstart tutorial](https://docs.wandb.ai/quickstart).
 
