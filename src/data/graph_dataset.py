@@ -5,7 +5,7 @@ from argparse import ArgumentParser
 import numpy as np
 import torch
 import torch.utils.data as data
-from implicit_graphs.models.core import parse_t_f
+from src.models.core import parse_t_f
 from tqdm import tqdm
 
 

@@ -1,7 +1,7 @@
 import numpy as np
 import torch
-from implicit_graphs.models import initializers as init
-from implicit_graphs.modules.sine import Sine
+from src.models import initializers as init
+from src.modules.sine import Sine
 from torch import nn
 
 
