@@ -6,7 +6,6 @@ networkx == 2.6.3
 numpy == 1.22.2
 pandas == 1.4.0
 plotly == 5.5.0
-pymesh == 1.0.2
 pytorch-lightning == 1.5.10
 scikit-image == 0.19.1
 scikit-learn == 1.0.2
